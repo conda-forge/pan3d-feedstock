@@ -36,7 +36,6 @@ requirements:
     - aiohttp
     - xarray >=2023.8
     # viewers/explorers
-    - trame-common
     - trame >=3.9
     - trame-vtk >=2.8.15
     - trame-vtklocal >=0.12.2
