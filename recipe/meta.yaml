@@ -1,5 +1,5 @@
 {% set name = "pan3d" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 {% set python_min = "3.13" %}
 {% set vtk_version = "9.4.2" %}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pan3d-{{ version }}.tar.gz
-  sha256: 6d0d1ca803603718232f9144f3a0b124d0e978fa159f631b5292c3dfb7b6a05b
+  sha256: bed07d1b10d8e60ccee524a6cb3b673422d3e513963323fcd7019761f52250fe
 
 build:
   entry_points:
